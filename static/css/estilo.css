@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Lato", sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin:  0 auto;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container h1 {
+    font-size: 2em;
+}
+.list {
+    flex-grow: 1;
+    margin-top: 1em;
+}
+.list li p {
+    margin-bottom: 15px;
+}
+.list li p a {
+    color: #000;
+}
+.origin {
+    color: #bbbb;
+}
