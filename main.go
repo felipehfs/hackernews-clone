@@ -101,6 +101,5 @@ func main() {
 	http.Handle("/static/", http.StripPrefix("/static/", http.FileServer(http.Dir("static"))))
 	http.HandleFunc("/", handler)
 	http.HandleFunc("/details", details)
-	http.HandleFunc("/articles/new", newArticle)
 	log.Fatal(http.ListenAndServe(":8080", nil))
 }
